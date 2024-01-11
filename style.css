@@ -1,39 +1,46 @@
 .header_content {
     display: flex;
 }
+
 .header_ttl {
-    margin:20px auto 0 30px;
+    margin: 20px auto 0 30px;
     font-size: 30px;
     color: rgb(12, 34, 121);
 }
+
 .header_nav {
     display: flex;
     margin-top: 15px;
 }
-.nav{
+
+.nav {
     margin: 30px;
     text-decoration: none;
     color: rgb(12, 34, 121);
     font-weight: bold;
 }
+
 .main {
     position: relative;
-
+    
 }
+
 .main_ttl {
     margin-top: 320px;
     font-size: 80px;
 }
+
 .background {
     width: 70vw;
     height: 200px;
     background-color: rgb(12, 34, 121);
 }
+
 .main_img img {
     width: 50vw;
     height: 70vh;
     margin: 0 0 0 auto;
     position: absolute;
     right: 0px;
-    bottom: 70px
+    bottom: 70px;
 }
