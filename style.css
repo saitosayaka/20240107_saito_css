@@ -21,26 +21,31 @@
 }
 
 .main {
-    position: relative;
-    
+    width: 100%;
 }
 
 .main_ttl {
-    margin-top: 320px;
     font-size: 80px;
+    position: absolute;
+    top: 430px;
 }
 
 .background {
     width: 70vw;
     height: 200px;
-    background-color: rgb(12, 34, 121);
+    background-color: #0c2279;
+    position: absolute;
+    top: 520px;
+}
+
+.main_img {
+    position: absolute;
+    width: 50vw;
+    height: 70vh;
+    right: 0px;
+    bottom: 50px;
 }
 
 .main_img img {
-    width: 50vw;
-    height: 70vh;
-    margin: 0 0 0 auto;
-    position: absolute;
-    right: 0px;
-    bottom: 70px;
+    width: 100%;
 }
